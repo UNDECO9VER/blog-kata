@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #ebeef3;
+  }
+
+button{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: inherit;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: #1890ff;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.App{
+    background-color: #EBEEF3;
+    min-height: 100vh;
+}
